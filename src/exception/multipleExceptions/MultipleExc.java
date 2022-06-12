@@ -2,7 +2,7 @@ package exception.multipleExceptions;
 
 import java.util.Scanner;
 
-public class multipleExc {
+public class MultipleExc {
     public static void main(String[] args) {
 
         try{
