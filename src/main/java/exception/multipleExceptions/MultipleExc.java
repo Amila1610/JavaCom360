@@ -6,6 +6,7 @@ public class MultipleExc {
     public static void main(String[] args) {
 
         try{
+
             Scanner sc = new Scanner(System.in);
             System.out.println("Enter two numbers");
             int one= sc.nextInt();
