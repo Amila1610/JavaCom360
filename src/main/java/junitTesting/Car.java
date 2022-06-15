@@ -17,4 +17,8 @@ public class Car {
         System.out.println("Car make " + make + ", car model " + model + ", number of doors  " + numDoors);
     }
 
+    public String message(String message){
+        return message;
+    }
+
 }
