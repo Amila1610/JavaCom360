@@ -6,9 +6,9 @@ public class Toyota extends Car {
         super(make, model, numDoors);
     }
 
-    public void toyotaDetails(){
+    /*public void toyotaDetails(){
         printDetails();
-    }
+    }*/
 
 
 }
