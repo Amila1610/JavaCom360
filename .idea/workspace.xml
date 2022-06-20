@@ -7,9 +7,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8554f6e4-a57d-4d1d-a606-16bbb7067a9b" name="Changes" comment="Mockito and JUnit, mock object">
-      <change afterPath="$PROJECT_DIR$/src/main/java/multithreading/Threads.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/multithreading/twoThreadsExecutor.java" afterDir="false" />
+    <list default="true" id="8554f6e4-a57d-4d1d-a606-16bbb7067a9b" name="Changes" comment="Communication between Threads">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ThreadPool/Food.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ThreadPool/FoodPoolTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -67,7 +67,7 @@
       <recent name="C:\Java_2022\JavaCom360\src\main\java\exception\multipleExceptions" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.twoThreadsExecutor">
+  <component name="RunManager" selected="Application.FoodPoolTest">
     <configuration name="Conversation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="proba.Conversation" />
       <module name="JavaCom360" />
@@ -81,12 +81,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadPool" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="multithreading.example2.ThreadPool" />
+    <configuration name="FoodPoolTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ThreadPool.FoodPoolTest" />
       <module name="JavaCom360" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="multithreading.example2.*" />
+          <option name="PATTERN" value="ThreadPool.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,8 +94,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadsExecutor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="multithreading.example2.ThreadsExecutor" />
+    <configuration name="ThreadPool" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="multithreading.example2.ThreadPool" />
       <module name="JavaCom360" />
       <extension name="coverage">
         <pattern>
@@ -138,10 +138,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FoodPoolTest" />
         <item itemvalue="Application.twoThreadsExecutor" />
         <item itemvalue="Application.Conversation" />
         <item itemvalue="Application.ThreadPool" />
-        <item itemvalue="Application.multithreading.example2.ThreadsExecutor" />
         <item itemvalue="JUnit.JunitClass.mockitoTest" />
       </list>
     </recent_temporary>
@@ -204,7 +204,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655324304190</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Communication between Threads">
+      <created>1655473368396</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1655473368396</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -225,7 +232,8 @@
     <MESSAGE value="JUnit testing/ assertEquals" />
     <MESSAGE value="Exceptions" />
     <MESSAGE value="Mockito and JUnit, mock object" />
-    <option name="LAST_COMMIT_MESSAGE" value="Mockito and JUnit, mock object" />
+    <MESSAGE value="Communication between Threads" />
+    <option name="LAST_COMMIT_MESSAGE" value="Communication between Threads" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/JavaCom360$JunitClass.ic" NAME="JunitClass Coverage Results" MODIFIED="1655299284819" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
